@@ -18,3 +18,4 @@ jobs:
             with:
               autofix_security: conservative
               autofix_stability: safe
+              cli_arg: --debug
