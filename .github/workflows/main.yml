@@ -19,5 +19,5 @@ jobs:
               INPUT_AUTOFIX_SECURITY: aggressive
               INPUT_AUTOFIX_STABILITY: safe
               INPUT_AUTOFIX_WITH_ISSUE: true
-              PRE_SCAN_SCRIPT: scripts/test.sh
+              PRE_SCAN_SCRIPT: scripts/test.sh uno due tre
             run: meterian_github_action.sh pre-and-post-scan-scripts-support
